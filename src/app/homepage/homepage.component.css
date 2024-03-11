@@ -1,0 +1,70 @@
+ .logo{
+    text-align: left;
+    font-size: 150%;
+    margin-top: 0%;
+    padding-top: 0%;
+ }
+
+ .main{
+    background-image: url('/.');
+    background-size: cover;
+} 
+details4{
+    text-align: center;
+}
+
+#intro{
+    text-align: center;
+}
+
+.search{
+    text-align: center;
+}
+.text{
+    text-align: right;
+    font-family:   Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    margin-top: 15%;
+    
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+    .section {
+    display: flex;
+    
+  }
+  
+  .section a {
+  margin-right: 100px;
+}
+
+.details2{
+    text-align: right;
+}
+
+.details5{
+text-align: left;
+}
+
+.submit{
+    
+    color: white;
+    background-color: orange;
+}
+.order{
+    text-align: center;
+}

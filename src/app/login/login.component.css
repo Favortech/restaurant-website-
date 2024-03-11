@@ -1,0 +1,59 @@
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+  }
+  
+  .left-section a,
+.right-section a {
+  margin-right: 10px;
+}
+.logo{
+    text-align: center;
+ }
+
+ .head  {
+    text-align: left;
+ }
+
+ .details{
+    text-align: right;
+    overflow-wrap: break-word;
+    
+ }
+
+ .image-container {
+    display: flex;
+    margin-top: 14%;
+    position: relative;
+    
+  }
+  .image-container img {
+    width: 450px;
+    margin-right: 10px;
+    height: 400px;
+    margin-bottom:0%;
+    
+  }
+  .title{
+  position: absolute;
+ text-align: center;
+  bottom: 100%;
+  font-size: 40px;
+font-weight: bold;
+}
+  
