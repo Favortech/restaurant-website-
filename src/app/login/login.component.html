@@ -1,86 +1,122 @@
-<div class="logo">
-  <h2> Stomach Klinic</h2>
-
-  <nav>
-    <div class="left-section">
-      <!-- Left section navigation items -->
+<div class="main">
+  <nav class="main-nav">
+    <div class="logo">
+      <h2>Stomach Klinic</h2>
+    </div>
+    <div class="section">
       <a href="#">Menu</a>
       <a href="#">Event</a>
-    </div>
-    <div class="right-section">
-      <!-- Right section navigation items -->
       <a href="#">About Us</a>
       <a href="#">Contact</a>
     </div>
   </nav>
-
-  <div class="head">
-    <h2>Who Are We?</h2>
-  </div>
-
-  <div class="details">
-    <h3>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti,
-      consectetur?
-    </h3>
-  </div>
-
-  <div class="image-container">
-    <div class="title">Local Dishes</div>
-    <div>
-      <img src="assets/nphoto1.jpg" alt="image1" />
-    </div>
-    <div>
-      <img src="assets/nphoto2.jpg" alt="image2" />
-    </div>
-    <div>
-      <img src="assets/nphoto3.jpg" alt="image3" />
-    </div>
-    <div>
-      <img src="/assets/nphoto4.jpg" alt="image4" />
-    </div>
-  </div>
-
-  <div class="image-container">
-    <div class="title">Foreign Dishes</div>
-    <div>
-      <img src="assets/fphoto1.jpg" alt="image1" />
-    </div>
-    <div>
-      <img src="assets/fphoto2.jpg" alt="image2" />
-    </div>
-    <div>
-      <img src="assets/fphoto3.png" alt="image3" />
-    </div>
-    <div>
-      <img src="/assets/fphoto4.jpg" alt="image4" />
-    </div>
-  </div>
-
-  <a href="./dashboard"> continue</a>
-  <!--   
-<table class="table"  border="20px">
-<thead>
-  <td>
-    Name
-  </td>
-  <td>
-    Age
-  </td>
-</thead>
-<tbody>
-  <td>
-    
-  </td>
-  <td>
-  
-  </td>
-  
-</tbody>
-</table>
-</div> -->
+<!-- 
+  <h2 class="menu-title"> 
+    <a href="#">Our Menu </a>
+  </h2> -->
 </div>
 
+ <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <h2>Enter Your Details</h2>
+    <form class="d-flex" role="search">
+      <input
+        class="form-control me-2"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        [(ngModel)]="searchText"
+        (input)="filterItems()"
+      />
+      <ul>
+        <li *ngFor="let item of filteredItems">
+          {{ item.name }} - {{ item.email }}
+        </li>
+      </ul>
+    </form>
+  </div>
+</nav> -->
 <!-- 
-  <div class="ag as at ch cv al cd b1"><div class="c9 ca cb af cc ct"><h1 class="go gp f2 f3 gq gr">Order delivery near you</h1><div class="al dn do"><div class="am ak d0 dp"><label id="location-typeahead-home-label" for="location-typeahead-home-input" class="ag bj bk bl bm bn bo">Enter delivery address</label><div class="dq"><div class="be d2 dr ds dt du b0 b1 aj af dv dw al ak"><div class="dx al dy cd"><div class="ck cj dz"><svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M17.5834 5.16602C14.5001 2.08268 9.50008 2.08268 6.41675 5.16602C3.33341 8.24935 3.33341 13.3327 6.41675 16.416L12.0001 21.9993L17.5834 16.3327C20.6667 13.3327 20.6667 8.24935 17.5834 5.16602ZM12.0001 12.416C11.0834 12.416 10.3334 11.666 10.3334 10.7493C10.3334 9.83268 11.0834 9.08268 12.0001 9.08268C12.9167 9.08268 13.6667 9.83268 13.6667 10.7493C13.6667 11.666 12.9167 12.416 12.0001 12.416Z" fill="currentColor"></path></svg></div></div><div class="spacer _16"></div><input role="combobox" aria-expanded="false" id="location-typeahead-home-input" aria-autocomplete="list" aria-controls="location-typeahead-home-menu" aria-labelledby="location-typeahead-home-label" autocomplete="off" type="text" name="searchTerm" placeholder="Enter delivery address" class="d0 b0 e0 d2 e1 e2 e3 e4 e5 e6" value=""><div class="spacer _8"></div></div></div><ul id="location-typeahead-home-menu" role="listbox" aria-labelledby="location-typeahead-home-label" class="d7 ag e7 at ch e8 e9"></ul></div><div class="spacer _8"></div><div><div class="ak"><div role="button" class="ea d7 dv cl"><div class="al cd ct ea d7 b1"><div class="spacer _4"></div><div class="al dy"><div class="eb ec al cd de"><div class="ck cj dz"><svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="When" role="img" focusable="false"><path d="M12 2.83398C6.91671 2.83398 2.83337 6.91732 2.83337 12.0007C2.83337 17.084 6.91671 21.1673 12 21.1673C17.0834 21.1673 21.1667 17.084 21.1667 12.0007C21.1667 6.91732 17.0834 2.83398 12 2.83398ZM17 13.6673H10.3334V5.33398H12.8334V11.1673H17V13.6673Z" fill="#000000"></path></svg></div></div></div><div class="ed ae al cd ee bl"><div class="be d2 bg d3 al am bl ed">Deliver now</div><div class="spacer _4"></div><div class="eb ec al cd de"><div class="ck cj dz"><svg width="24px" height="24px" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M17 11.7494V14.916L12 11.0827L7 14.916V11.7494L12 7.91602L17 11.7494Z" fill="#000000" transform="rotate(180, 12, 12)"></path></svg></div></div></div></div></div></div></div><div class="spacer _8"></div><button class="ef ds be bg cl eg eh al cd de af d5 ei df dg dh di da db ea ej">Search here</button></div><div class="be bf bg bh bb">Or <a rel="nofollow" href="https://www.ubereats.com/login-redirect/?campaign=signin_universal_link&amp;marketing_vistor_id=6bdc1449-e5ff-4521-bc29-8c03bf8dc499&amp;redirect=%2F&amp;guest_mode=false&amp;app_clip=false" class="cl ek el">Sign In</a></div></div></div>
- -->
+<div class="container">
+  <div>
+    <label for="text"
+      >FullName:
+      <input
+        type="text"
+        name="fullname"
+        id="text"
+        placeholder="Enter Name"
+        [(ngModel)]="userdetails.fullname"
+    /></label>
+  </div>
+  <br />
+  <div>
+    <label for="number">
+      Phone Number:<input
+        type="number"
+        name="phonenumber"
+        id="number"
+        placeholder="Enter Phone Number"
+        [(ngModel)]="userdetails.phonenumber"
+    /></label>
+  </div>
+  <br />
+  <a href="./UserProfile">
+    <button type="submit" (click)="addItem()">Submit</button></a
+  >
+
+  <div class="table">
+    <table border="2">
+      <thead>
+        <tr>
+          <td>FullName</td>
+          <td>Phone Number</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let itm of items">
+          <td>
+            {{ itm.fullname }}
+          </td>
+
+          <td>
+            {{ itm.phonenumber }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+  </div>
+
+  <p>
+    {{ userdetails.fullname }}
+    <br />
+    {{ userdetails.phonenumber }}
+  </p>
+</div>
+</div> -->
+
+
+<div class="main-image">
+  <div class="image1">
+
+<div class="detail1">
+  Welcome to our world of delectable meals and exotic drinks. We hope to satisfy you with our  <br> delicious and affordable meals served under a great ambience.
+  <p class="book"><a href="#">
+    <button class="book-table" type="submit">Book Table</button>
+  </a></p>
+</div>
+  </div>
+  <div class="image2">
+<div class="detail2">
+  Healthy and Delicious food to <br>make every occasion special
+</div>
+<div class="detail3">
+  Food is an important part of any celebration in all nations <br> of the world, regardless of culture or religion.
+</div>
+  </div>
+  <div class="image3">
+<div class="photo1">
+Here are some of our local Dishes 
+</div>
+  </div>

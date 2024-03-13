@@ -1,18 +1,71 @@
 
-.title{
-    font-size: 25px;
-    font-weight: bold;
-   
+.container{
+  background-image: url(../images/loginphoto.jpg);
+  background-size:cover;
+  border-radius: 1%;
+  background-repeat: no-repeat;
+  background-position:center;
+  position: relative;
+  height: 250px;
+}
+ 
+.logo{
+    text-align: left;
+    font-size: 120%;
+    margin-top: 0%;
+     padding-top: 0%; 
+}
+ 
+a{
+    text-decoration: none;
+    color: white;
 }
 
-h1{
+nav 
+  {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 0%;
+    padding-top: 0%;
+    
+  }
+  
+  .section a {
+    margin-left: 50px;
+    padding-right: 10px;
+  }
+
+#name{
+  padding-left: 10px;
+  margin-top: 0%;
+}
+
+.sign-in-box{
+  display: block;
+  text-align: center;
+  position: relative;
+  left:30%;
+}
+
+.sign-in{
+  display: block;
+  text-align: center;
+  width: 40%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  
+}
+ h1{
    text-align: center; 
    margin-bottom: 0%;
    margin-top: 0%;
-}
+   color: white;
+} 
 
 .form-group{
-    text-align: center;
+    text-align: left;
     padding: 0.5em;
 }
 
@@ -23,16 +76,51 @@ h1{
     color: black;
 }
 
-::placeholder{
-    text-align: center;
+
+.login-box{
+  display: block;
+  padding-top: 0.75em;
 }
 
-.submit{
-    text-align: right;
-    height: 40px;
-    
+.log{
+  display: block;
+  height: 40px;
+  width: 100%;
 }
 
+.test {
+  width: 300px;
+  height:fit-content;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 3%;
+  position: relative;
+  left: 35%;
+  text-align: center;
+}
+
+h5{
+  text-align: right;
+  font-size: 20px;
+  margin: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.container2{
+  background-color: orange;
+  height: 100%;
+  margin: 0%;
+}
+h2{
+  padding-top: 0%;
+}
+
+.login{
+  height: 40px;
+  width: 100%;
+}
+/* 
 .link{
     text-decoration: none;
     color: black;
@@ -56,7 +144,7 @@ nav {
   .left-section a,
 .right-section a {
   margin-right: 10px;
-}
-.logo{
-    text-align: center;
- }
+} */ 
+
+
+

@@ -1,3 +1,48 @@
+.main{
+    background-image: url('../images/bgimage3.jpg');
+    height: 700px;
+    background-size: cover;
+   }
+
+   /* .menu-title{
+    text-align:center;
+    padding: 30%;
+    font-size: 400%;
+   } */
+
+.logo{
+    text-align: left;
+    font-size: 150%;
+    margin-top: 0%;
+    padding-top: 0%;
+    color: black;
+ }
+
+
+ a{
+    text-decoration: none;
+    color: white;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    position: relative;
+  }
+  
+    .section {
+    display: flex;
+    
+    
+  }
+  
+  .section a {
+  margin-right: 100px;
+ 
+}
+
 .link{
     text-decoration: none;
     color: black;
@@ -8,23 +53,71 @@ a{
     color: black;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .left-section,
-  .right-section {
-    display: flex;
-  }
-  
-  .left-section a,
-.right-section a {
-  margin-right: 10px;
+.main-image{
+  display: block;
 }
-.logo{
-    text-align: center;
- }
+
+.image1{
+  background-image: url('../images/bgimage1.jpg');
+  height: 700px;
+    background-size: cover;
+}
+
+.image2{
+  background-image: url('../images/bgimage2.jpg');
+  height: 700px;
+    background-size: cover;
+}
+
+.image3{
+  background-image: url('../images/bgimage5.jpg');
+  height: 700px;
+    background-size: cover;
+}
+
+.detail1{
+  padding-top: 70px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.book{
+  padding-top: 30px;
+  
+}
+.book-table{
+  background-color: orange;
+  color: white;
+}
+
+.detail2{
+  padding-top: 100px;
+  text-align: right;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  color: black;
+  
+}
+
+.detail3{
+  text-align: left;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+
+
+
+
+ /* 
+ .container{
+  margin: 15%;
+  text-align: center;
+}
 
  .head  {
     text-align: left;
@@ -48,7 +141,7 @@ nav {
     height: 400px;
     margin-bottom:0%;
     
-  }
+  } 
   .title{
   position: absolute;
  text-align: center;
@@ -57,3 +150,29 @@ nav {
 font-weight: bold;
 }
   
+
+
+form{
+    margin-top: 0%;
+    text-align:right;
+    height: fit-content;
+}
+
+.container-fluid{
+    background-color: black;
+    margin-top: 0%;
+    color: orange;
+    text-align: center;
+    
+}
+.navbar{
+    margin: 0%;
+    height: 100px;
+}
+
+.table{
+    box-sizing: border-box;
+    height: 50px;
+    width: 30px;
+    
+}*/

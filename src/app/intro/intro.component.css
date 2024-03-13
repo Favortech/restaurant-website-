@@ -1,0 +1,46 @@
+
+.main{
+    background-image: url('../images/image.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   position:relative;
+   margin-bottom: 0%;
+
+} 
+.logo{
+    text-align: left;
+    font-size: 150%;
+    margin-top: 0%;
+    padding-top: 0%;
+ }
+ 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+  }
+  
+    .section {
+    display: flex;
+    
+  }
+  
+  .section a {
+  margin-right: 100px;
+}
+
+.start{
+    text-align: center;
+    padding: 15%;
+    color: white;
+    margin-bottom: 0%;
+    margin-top: 0%;
+
+
+}
