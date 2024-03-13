@@ -5,10 +5,6 @@
     padding-top: 0%;
  }
 
- .main{
-    background-image: url('/.');
-    background-size: cover;
-} 
 details4{
     text-align: center;
 }
@@ -68,3 +64,8 @@ text-align: left;
 .order{
     text-align: center;
 }
+
+/* .semi-main{
+    background-image: url('../images/bgimage2.jpg');
+    background-size: cover;
+} */

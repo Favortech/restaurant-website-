@@ -1,63 +1,31 @@
-<div class="logo">
-  <h2> Stomach Klinic</h2>
-
-  <nav>
-      <div class="left-section">
-        <!-- Left section navigation items -->
-        <a href="#">Menu</a>
-        <a href="#">Event</a>
-      </div>
-      <div class="right-section">
-        <!-- Right section navigation items -->
-        <a href="#">About Us</a>
-        <a href="#">Contact</a>
-      </div>
-    </nav>
-
-
-
 <div class="container">
-  <h1>Registration Page</h1>
-  <hr />
-  
-</div>
-<form action="post">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="form-group">
-        <label class="title" for="text">
-          FullName
-          <br />
-          <input class="box" type="text" />
-        </label>
-      </div>
+  <nav>
+    <div class="logo">
+      <h3 id="name">Stomach Klinic</h3>
     </div>
-    <div class="form-group">
-      <label class="title" for="number"
-        >Phone Number
-        <br />
-        <input class="box" type="text" />
-      </label>
+    <div class="section">
+      <a href="#">Menu</a>
+      <a href="#">Event</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
     </div>
-    <div class="form-group">
-      <label class="title" for="number"
-        >Address
-        <br />
-        <input class="box" type="text" />
-      </label>
-    </div>
-    <div class="form-group">
-      <label class="title" for="number">
-        Email Address
-        <br />
-        <input class="box" type="text" placeholder="Optional" />
-      </label>
-    </div>
+  </nav>
 
-    <a href="./login"><div class="submit">
-      <button type="submit" (click)="enter()">Enter</button>
-    </div></a>
-    
+  <h1 class="log-name">LOGIN</h1>
+  <div class="sign-in-box">
+    <button class="sign-in" type="submit"><a href="#">Login With Facebook</a></button><br />
+    <button class="sign-in" type="submit"><a href="#">Login With Google</a></button>
   </div>
-</form>
+</div>
+
+<div class="container2">
+  <div class="test">
+    <div class="login-box">
+      <h2>OR</h2>
+      <input class="log" type="text" placeholder="Phone Number" /><br>
+      <input class="log" type="password" placeholder="Password" />
+      <a href="#"><h5>Forgot Password</h5></a>
+      <button class="login" type="submit">Login</button>
+      <h4>Not A Customer? <a href="./register">Register Now</a></h4>
+    </div>
 
