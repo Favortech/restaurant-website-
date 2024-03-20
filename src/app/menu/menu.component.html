@@ -1,1 +1,35 @@
-<p>menu works!</p>
+<!-- <ngx-slick-carousel class="carousel" 
+#slickModal="slick-carousel" 
+[config]="slideConfig" 
+(init)="slickInit()"
+(breakpoint)="breakpoint()"
+(afterChange)="afterChange()"
+(beforeChange)="beforeChange()">
+@for (slide of slides; track slide.img) {
+<div ngxSlickItem class="slide">
+<img src="{{ slide.img }}" alt="" width="100%">
+</div>
+}
+</ngx-slick-carousel>
+
+<button (click)="addSlide()">Add</button>
+<button (click)="removeSlide()">Remove</button>
+<button (click)="slickModal.slickGoTo(2)">slickGoto 2</button>
+<button (click)="slickModal.unslick()">unslick</button> -->
+
+
+<ngx-slick-carousel 
+
+>
+<!-- @for (item of slide; track $index) {
+    <div ngxSlickItem class="slide">
+        <img src="{{ item.img }}" alt="" width="100%">
+  </div>
+} -->
+    <img
+    src="{{slide}}"
+    class="main-menu"
+    alt="..."
+  />
+</ngx-slick-carousel>
+

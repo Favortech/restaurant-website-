@@ -10,13 +10,14 @@
       <a href="#">Contact</a>
     </div>
   </nav>
+  
+</div>
 <!-- 
   <h2 class="menu-title"> 
     <a href="#">Our Menu </a>
   </h2> -->
-</div>
 
- <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <h2>Enter Your Details</h2>
     <form class="d-flex" role="search">
@@ -96,27 +97,52 @@
 </div>
 </div> -->
 
-
-<div class="main-image">
+<!-- <div class="main-image">
   <div class="image1">
+    <div class="detail1">
+      Welcome to our world of delectable meals and exotic drinks. We hope to
+      satisfy you with our <br />
+      delicious and affordable meals served under a great ambience.
 
-<div class="detail1">
-  Welcome to our world of delectable meals and exotic drinks. We hope to satisfy you with our  <br> delicious and affordable meals served under a great ambience.
-  <p class="book"><a href="#">
-    <button class="book-table" type="submit">Book Table</button>
-  </a></p>
-</div>
+      <p class="book">
+        <a href="#">
+          <button class="book-table" type="submit">Book Table</button>
+        </a>
+      </p>
+    </div>
   </div>
   <div class="image2">
-<div class="detail2">
-  Healthy and Delicious food to <br>make every occasion special
-</div>
-<div class="detail3">
-  Food is an important part of any celebration in all nations <br> of the world, regardless of culture or religion.
-</div>
+    <div class="detail2">
+      Healthy and Delicious food to <br />make every occasion special
+    </div>
+    <div class="detail3">
+      Food is an important part of any celebration in all nations <br />
+      of the world, regardless of culture or religion.
+    </div>
   </div>
   <div class="image3">
-<div class="photo1">
-Here are some of our local Dishes 
-</div>
+    <div class="photo1">Here are some of our local Dishes</div>
   </div>
+</div> -->
+
+<div
+  style="
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding-top: 0px;
+    padding: 0px;
+    
+  "
+>
+ <app-imageslider 
+ class="slider"
+ [slides]="slides"
+ [indicatorVisible]="true"
+ [animationSpeed]="200"
+ [autoPlaySpeed]="1000"
+ [autoPlay]="true"
+ ></app-imageslider>
+
+</div>

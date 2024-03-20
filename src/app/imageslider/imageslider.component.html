@@ -1,0 +1,30 @@
+<div class="slides">
+  <div *ngFor="let i of slides; let select = index"
+    class="slide"
+    
+    [ngStyle]="{
+      'background-image': 'url(' + slides[currentslide].url + ')',
+      opacity: hidden ? 0 : 1,
+      transition: 'opacity' + animationSpeed + 'ms ease-in-out'
+    }"
+  > {{i.description}}</div>
+
+  @if (indicatorVisible) {
+  <div id="indicator">
+    @for (slide of slides; track $index;) {
+    <div
+      (click)="jumptoslide($index)"
+      class="indicator"
+      [ngClass]="{ active: $index == currentslide }"
+    ></div>
+    }
+  </div>
+  }
+  <button class="prev-button" (click)="previous()">
+    <fa-icon [icon]="faArrowLeft"></fa-icon>
+  </button>
+  <button class="next-button" (click)="next()">
+    <fa-icon [icon]="faArrowRight"></fa-icon>
+  </button>
+</div>
+
